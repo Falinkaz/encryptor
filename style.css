@@ -1,0 +1,150 @@
+body {
+    background-color: #F3F5FC;
+    padding-left: 60px;
+}
+
+header {
+    margin: 2%;
+}
+
+.enterText::placeholder{
+    color:#0A3871;
+}
+
+#rectangle0{
+    display: inline-block;
+}
+
+.enterText {
+    position: relative;
+    display: inline-block;
+    background-color: #F3F5FC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    color:#0A3871;
+    line-height: 48px;
+    width: 680px;
+    height: 580px;
+    left: 240px;
+    border: none;
+    outline: none;
+}
+
+#container{
+    height: 944px;
+    width:  400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    top: 5%;
+    right: 20%;
+    border-radius: 20px;
+}
+
+#container img{
+    margin-bottom: 40px;
+}
+
+/* Define a media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .hidden-mobile {
+        display: none; /* Hide elements with the hidden.mobile class on mobile devices */
+    }
+}
+
+
+.warning {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #0A3871;
+    width: 336px;
+    text-align: center;
+}
+
+.explainer {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #0A3871;
+    width: 336px;
+    text-align: center;
+}
+
+.above-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    left: 240px;
+    width: 100%;
+}
+
+.above-footer h1 {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+}
+
+.above-footer p {
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #0A3871;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    left: 240px;
+    max-width: 25%;
+}
+
+
+
+.buttons > * {
+    display: inline;
+    width: 860px;
+    height: 67px;
+    font-family: Inter;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+#encrypt {
+    background: #0A3871;
+    outline: 0;
+    color:#FFFFFF;  
+}
+
+#decrypt {
+    background: #D8DFE8;
+    color:#0A3871;
+    border-width: 1px;
+    border-color:#0A3871;
+}
+
+footer {
+    text-align: center;   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
